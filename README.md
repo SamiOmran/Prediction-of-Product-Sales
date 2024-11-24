@@ -1,4 +1,4 @@
-**# Prediction-of-Product-Sales
+# **Prediction-of-Product-Sales**
 
 This first project will be a sales prediction for food items sold at various stores.
 
@@ -16,6 +16,7 @@ We loaded the data frame using pandas and understood the records in the df.
 ## Phase |||: **Exploratory Data Analysis**
 Create visualizations of data to understand the data and see if there is a relationship between features. Here we are presenting some of the figures we got:
 
+### Histogram
 ![histograms](https://github.com/user-attachments/assets/828eca3c-e776-45db-809d-6e2e730c8aa7)
 
 **From the figure above we can see the distribution for each numerical column:**
@@ -24,10 +25,29 @@ Create visualizations of data to understand the data and see if there is a relat
   2. For `Item_Visibility` column the distribution goes from 0.0% - 0.35%
      
   3. For `Outlet_Establishment_Year` column the range from 1985 - 2009
+
 <br>
 
+### Heatmap
 ![heatmap (1)](https://github.com/user-attachments/assets/af71bd95-1a88-4da7-8824-917efe22c833)
 **As shown in heatmap we can see:**
-
   1. `Item_Weight` have moderate **+ve** relation with `Outlet_Establishment_Year` (0.52)
+    
   2. `Item_MRP` have moderate **+ve** relation with `Item_Outlet_Sales` (0.57)
+
+<br>
+
+### Bar plot
+![item_weight_fat_content](https://github.com/user-attachments/assets/a862e4f1-e519-4de2-805e-c37e5464eddf)
+
+**Here we are seeing the weights based on item types:**
+  - The average weight of `starchy foods` with **low-fat** content is the highest among other types. Also `starchy foods` with **regular-fat** content is the highest.
+  
+  - `Household`, `Health and Hygiene`, `Hard Drinks` and `others` are only `low fat` items
+
+<br>
+
+### Scatter plot
+![item_mrp_outlet_sales](https://github.com/user-attachments/assets/97e1dc63-9fec-417d-8ea7-a20fb729f511)
+From the plot, we can see that it's divided into 4 different groups, but in general, we can say that whenever the `MRP` increases the `outlet_sales` increases
+
