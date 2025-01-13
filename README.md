@@ -2,18 +2,29 @@
 
 This first project will be a sales prediction for food items sold at various stores.
 
+## Content
+- [Inspecting Data](#phase-one-inspecting-data)
+- [Cleaning Data](#phase-two-clean-data)
+- [Visualizing Data](#phase-three-exploratory-data-analysis)
+  * [Histograms](#histogram)
+  * [Heatmap](#heatmap)
+  * [Bar Plot](#bar-plot)
+  * [Scatter](#scatter-plot)
+
+<br>
+
 # Project Phases:
-## Phase |: **Inspecting Data**
+## Phase One: **Inspecting Data**
 We loaded the data frame using pandas and understood the records in the df.
 
-## Phase ||: **Clean Data**
+## Phase Two: **Clean Data**
 **Cleaning data passes by stages:**
 - Check for duplicates
 - Check for null values(missing)
 - Check for appropriate data types
 - Check for inconsistency values
 
-## Phase |||: **Exploratory Data Analysis**
+## Phase Three **Exploratory Data Analysis**
 Create visualizations of data to understand the data and see if there is a relationship between features. Here we are presenting some of the figures we got:
 
 ### Histogram
