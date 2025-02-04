@@ -10,6 +10,7 @@ This first project will be a sales prediction for food items sold at various sto
   * [Heatmap](#heatmap)
   * [Bar Plot](#bar-plot)
   * [Scatter](#scatter-plot)
+- [Feature Importances](#feature-importances)
 
 <br>
 
@@ -62,3 +63,11 @@ Create visualizations of data to understand the data and see if there is a relat
 ![item_mrp_outlet_sales](https://github.com/user-attachments/assets/97e1dc63-9fec-417d-8ea7-a20fb729f511)
 From the plot, we can see that it's divided into 4 different groups, but in general, we can say that whenever the `MRP` increases the `outlet_sales` increases
 
+<br>
+
+# Feature Importances
+## Linear Regression Model feature importance:
+![linear regression-permutation importances (1)](https://github.com/user-attachments/assets/7effbcfe-0a83-4d4e-b549-5c515ab58c95)
+
+## Random Forest Regressor Model feature importance:
+![random forest-permutation importances](https://github.com/user-attachments/assets/91e41e07-7279-43df-82e7-ae9ad16eb4f5)
